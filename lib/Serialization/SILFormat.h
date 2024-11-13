@@ -317,15 +317,13 @@ namespace sil_block {
     ValueIDField,
     ValueIDField,
     ValueIDField,
-    BCFixed<3>, /// LocationKind
-    BCFixed<1> /// Implicit
+    BCFixed<3> /// LocationKind
   >;
 
   using SourceLocRefLayout = BCRecordLayout<
     SIL_SOURCE_LOC_REF,
     ValueIDField,
-    BCFixed<3>,
-    BCFixed<1> /// Implicit
+    BCFixed<3>
   >;
 
   using SILFunctionLayout =
